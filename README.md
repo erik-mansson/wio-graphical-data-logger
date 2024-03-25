@@ -8,7 +8,7 @@ On the live screen, the up & down arrows and middle button control a threshold v
 
 In case a speaker is connected and sound is enabled, the speaker starts beeping at a rate relating to how much the threshold is exceeded.
 
-On the live screen, the left & right arrows control the sampling rate, i.e. the number of samples that are averaged to produce one data point. Actually, a fixed pattern of several raw analogue readouts are made even per sample, and median-values are used in order to suppress some of the high-frequency noise that cheap switching power supplies create.
+On the live screen, the left & right arrows control the sampling rate, i.e. the number of samples that are averaged to produce one data point. Actually, a fixed pattern of several raw analogue readouts are made for every sample, and median-values are used in order to suppress some of the high-frequency noise that cheap switching power supplies create. To minize the noise when measuring skin resitance or low voltages, you may want to use a battery (USB power bank) instead of a power supply!
 
 On the Menu screen, the up & down arrows allow selecting a measurement scale, i.e. how the raw voltage measurements should be transformed for display (and logging). See the `valueFromRaw(double)` function and the `sample_transform` variable. At start-up, the default sample_transform converts readings from the Grove GSR (galvanic skin response) sensor 101020052 to conductance (inverse of resistance), and the Grove moisture sensor 101020008 behaves similarly. For general use, there is a sample_transform option which simply expresses the analogue input as a voltage.
 
