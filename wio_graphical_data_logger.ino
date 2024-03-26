@@ -33,9 +33,10 @@ At least some 32 GB cards work although some (old) documentation says max 16 GB.
 
 The files named with automatically incrementing five-digit filenames, organized
 in four-letter directories. Rebooting the Wio Terminal means that the next file
-will get a new directory, and that the timesetamp clock is restarts at 0.
+will get a new directory, and that the timesetamp clock restarts at 0.
 
 Installation notes:
+See https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/#getting-started for the basics.
 For Arduino IDE to open the program, the repository folder needs to be renamed to "wio_graphical_data_logger".
 This project depends on the following non-standard-Arduino libraries:
 "Seeed Arduino FS" https://wiki.seeedstudio.com/Wio-Terminal-FS-Overview/
