@@ -27,7 +27,7 @@ The files named with automatically incrementing five-digit filenames, organized 
 
 
 ### Installation notes
-To transfer the program to your Wio Terminal device, you need to install the Arduino IDE on a regular computer and connect the Wio to the computer with a USB cable. Further instructions on this initial configuration can be found in [https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/#getting-started](Seeed Studio's tutorial).
+To transfer the program to your Wio Terminal device, you need to install the Arduino IDE on a regular computer and connect the Wio to the computer with a USB cable. Further instructions on this initial configuration can be found in [Seeed Studio's tutorial](https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/#getting-started).
 
 For the Arduino IDE to open the program, the repository folder needs to be renamed to match the file name, i.e. "wio_graphical_data_logger" (underscores were just not allowed in the Github repository name).
 
